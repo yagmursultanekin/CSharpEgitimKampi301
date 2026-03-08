@@ -12,5 +12,6 @@ namespace CSharpEgitimKampi301.EntityLayer.Concreate
         public string CategoryName { get; set; }
 
         public bool CategoryStatus { get; set; }
+        public List<Product> Products {  get; set;}
     }
 }
